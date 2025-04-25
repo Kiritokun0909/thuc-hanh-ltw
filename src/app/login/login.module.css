@@ -1,0 +1,69 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginForm {
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 12px;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.formHeader h2 {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.inputRow {
+    padding: 10px;
+    font-size: 16px;
+    width: 250px;
+}
+
+.submitRow {
+    display: flex;
+    justify-content: center;
+}
+
+.submitBtn {
+    width: 100%;
+    border-radius: 4px;
+    padding: 8px 8px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    background-color: #0866ff;
+    cursor: pointer;
+}
+
+.submitBtn:hover {
+    filter:brightness(80%);
+}
+
+.otherFunctions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 4px;
+}
+
+.otherBtn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: blue;
+    font-size: 14px;
+}
+
+.otherBtn:hover {
+    text-decoration: underline;
+}

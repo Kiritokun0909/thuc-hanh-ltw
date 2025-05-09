@@ -64,3 +64,14 @@
 .container {
   padding: 24px 12px;
 }
+
+.productList ul {
+  display: flex;
+  flex-wrap: wrap:
+  list-style: none;
+}
+
+.productList img {
+  width: 150px;
+  height: 150px;
+}
